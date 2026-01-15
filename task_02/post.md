@@ -9,17 +9,17 @@
 ```
 task_02/
 ├── post.md                    # 任务说明和学习笔记
-├── src/
-│   ├── custom_game/           # 英语消消乐游戏（Vanilla JS + Vite）
-│   │   ├── index.html
-│   │   ├── main.js
-│   │   ├── style.css
-│   │   ├── package.json
-│   │   └── vite.config.js
-│   └── snake-game-react/      # 贪吃蛇游戏（React + Vite）
-│       ├── src/
-│       ├── public/
-│       └── package.json
+├── custom_game/               # 英语消消乐游戏（Vanilla JS + Vite）
+│   ├── index.html
+│   ├── main.js
+│   ├── style.css
+│   ├── package.json
+│   ├── vite.config.js
+│   └── src/
+└── snake-game-react/          # 贪吃蛇游戏（React + Vite）
+    ├── src/
+    ├── public/
+    └── package.json
 ```
 
 ## 游戏介绍
@@ -65,7 +65,7 @@ CAT, DOG, APPLE, GAME, BOOK, TREE, CODE, HELLO, WORLD, JAVA, PYTHON, GOOD, COOL,
 ### 运行英语消消乐
 
 ```bash
-cd task_02/src/custom_game
+cd task_02/custom_game
 npm install
 npm run dev
 ```
@@ -75,7 +75,7 @@ npm run dev
 ### 运行贪吃蛇游戏
 
 ```bash
-cd task_02/src/snake-game-react
+cd task_02/snake-game-react
 npm install
 npm run dev
 ```

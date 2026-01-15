@@ -46,9 +46,8 @@ Datawhale_VibeCoding/
 │
 ├── task_02/                           # 任务 2：React 游戏开发
 │   ├── post.md
-│   └── src/
-│       ├── custom_game/               # 英语消消乐游戏
-│       └── snake-game-react/          # 贪吃蛇游戏
+│   ├── custom_game/                   # 英语消消乐游戏
+│   └── snake-game-react/              # 贪吃蛇游戏
 │
 └── task_03/                           # 任务 3（待开发）
     ├── post.md
@@ -166,7 +165,7 @@ npm run dev
 #### 英语消消乐
 
 ```bash
-cd task_02/src/custom_game
+cd task_02/custom_game
 npm install
 npm run dev
 # 访问 http://localhost:5173
@@ -175,7 +174,7 @@ npm run dev
 #### 贪吃蛇游戏
 
 ```bash
-cd task_02/src/snake-game-react
+cd task_02/snake-game-react
 npm install
 npm run dev
 # 访问 http://localhost:5173

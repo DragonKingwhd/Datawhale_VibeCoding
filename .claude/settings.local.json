@@ -11,7 +11,11 @@
       "Bash(findstr:*)",
       "Bash(taskkill:*)",
       "Bash(kill:*)",
-      "Bash(powershell:*)"
+      "Bash(powershell:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(git push:*)"
     ]
   }
 }
