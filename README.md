@@ -44,9 +44,11 @@ Datawhale_VibeCoding/
 │   ├── prisma/                        # 数据库配置
 │   └── ...
 │
-├── task_02/                           # 任务 2（待开发）
+├── task_02/                           # 任务 2：React 游戏开发
 │   ├── post.md
 │   └── src/
+│       ├── custom_game/               # 英语消消乐游戏
+│       └── snake-game-react/          # 贪吃蛇游戏
 │
 └── task_03/                           # 任务 3（待开发）
     ├── post.md
@@ -103,7 +105,34 @@ Datawhale_VibeCoding/
 
 **详细记录**：[task_01/post.md](./task_01/post.md)
 
-### ⏳ Task 02: 待开发
+### ✅ Task 02: React 游戏开发
+
+**目标**：使用 React 和 Vite 构建两个交互式游戏项目
+
+**项目**：
+1. **英语消消乐** - 8×8 字母网格消除游戏
+   - 点击字母拼出有效单词
+   - 单词验证和分数计算
+   - 响应式设计
+
+2. **贪吃蛇游戏** - 经典贪吃蛇游戏
+   - 方向键控制
+   - 碰撞检测
+   - 分数系统
+
+**技术栈**：
+- React 18 + Vite
+- Vanilla JavaScript
+- CSS 3（Grid + Flexbox）
+
+**关键学习点**：
+- ✅ React Hooks（useState, useEffect, useMemo）
+- ✅ 游戏状态管理
+- ✅ 事件处理和事件委托
+- ✅ 响应式 UI 设计
+- ✅ Vite 构建工具
+
+**详细记录**：[task_02/post.md](./task_02/post.md)
 
 ### ⏳ Task 03: 待开发
 
@@ -130,6 +159,26 @@ npm run dev
 
 # 4. 打开浏览器
 # http://localhost:3000
+```
+
+### 运行 Task 02
+
+#### 英语消消乐
+
+```bash
+cd task_02/src/custom_game
+npm install
+npm run dev
+# 访问 http://localhost:5173
+```
+
+#### 贪吃蛇游戏
+
+```bash
+cd task_02/src/snake-game-react
+npm install
+npm run dev
+# 访问 http://localhost:5173
 ```
 
 ### 使用其他端口
@@ -310,7 +359,7 @@ Add task_01: 贪吃蛇诗歌游戏
 
 **创建时间**：2026-01-13
 
-**最后更新**：2026-01-13
+**最后更新**：2026-01-15
 
 ---
 
